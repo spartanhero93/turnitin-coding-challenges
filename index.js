@@ -16,3 +16,9 @@ function animateRight(el) {
     count++
   }
 }
+
+// xs: array
+// returns: a new array, with unique items
+function removeDuplicates(xs) {
+  return Array.from(new Set(xs))
+}
